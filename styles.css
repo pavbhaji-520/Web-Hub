@@ -52,14 +52,35 @@ button:hover, input:hover {
     border-radius: 10px;
     box-shadow: 0 2px 8px #fa5478a2;
 
-    transform: scale(1.05);
     margin-right: 7px;
+    transform: scale(1.07) translateY(-5px);
     transition: all 0.25s ease;
 }
 
 button:hover {
     margin-right: 7px;
     margin-left: 7px;
+}
+
+.search-forms button:hover {
+    transition: all 0.25s ease;
+}
+
+#web-search button:hover, #web-search input:hover {
+    background-color: #fddbdb;
+    color: #973449;
+    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #fa5478a2;
+
+    margin-right: 7px;
+    transform: scale(1.07) translateY(-2px);
+    transition: all 0.25s ease;
+}
+
+#web-search button:hover {
+    margin-right: auto;
 }
 
 button:focus, button:active {
@@ -73,6 +94,7 @@ button:focus, button:active {
 
     transform: scale(1.07);
     margin-right: 10px;
+    margin-left: 10px;
     transition: all 0.2s ease;
 }
 
