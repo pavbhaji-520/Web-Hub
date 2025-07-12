@@ -85,7 +85,7 @@ button:hover, button:focus {
     margin-right: auto;
 }
 
-/*button:focus, */button:active {
+button:active {
     background-color: #fddbdb;
     color: #973449;
     
@@ -100,7 +100,7 @@ button:hover, button:focus {
     transition: all 0.2s ease;
 }
 
-/*input:focus, */input:active {
+input:active {
     background-color: #fddbdb;
     color: #973449;
     
