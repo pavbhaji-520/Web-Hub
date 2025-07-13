@@ -1,4 +1,6 @@
 <pre>
+WARNING: DOES NOT WORK ON MOBILE DEVICES. DESKTOP/LAPTOPS ONLY!!!!!!!!!!!!!!!
+
 • Install Instructions:
 	- Download the ZIP and extract it.
 	- Put the newly extracted folder wherever you want.
