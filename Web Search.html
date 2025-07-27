@@ -9,89 +9,108 @@
 
     <body>
         <main>
-            <div id="web-search">
-                <h1>Web Search</h1>
-
-                <div class="search-forms">
-                    <form action="https://search.brave.com/search">
-                        <label for="brave-search">Brave:</label>
-                        <input type="text" name="q" id="brave-search" autofocus="true">
-                        <button type="submit">Search</button>
-                    </form>
-
-                    <form action="https://search.google.com/search">
-                        <label for="google-search">Google:</label>
-                        <input type="text" name="q" id="google-search">
-                        <button type="submit">Search</button>
-                    </form>
-
-                    <form action="https://www.youtube.com/results/" method="get">
-                        <label for="searchLabel">YouTube:</label>
-                        <input type="text" id="search" name="search_query" />
-                        <button type="submit">Search</button>
-                    </form>
+            <div id="main-div">
+                <div id="web-search">
+                    <h1>Web Search</h1>
+                
+                    <div class="search-forms">
+                        <form action="https://search.brave.com/search">
+                            <label for="brave-search">Brave:</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="q" id="brave-search" autofocus="true">
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                
+                        <form action="https://search.google.com/search">
+                            <label for="google-search">Google:</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="q" id="google-search">
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                
+                        <form action="https://www.youtube.com/results/" method="get">
+                            <label for="searchLabel">YouTube:</label>
+                            <div class="input-wrapper">
+                                <input type="text" id="search" name="search_query" />
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                
                 </div>
+                
+                <div id="websites">
+                
+                    <h1>Websites</h1>
+                
+                    <div class="website-buttons">
+                        <button type="button" onclick="location.href='https://instagram.com/direct'">Instagram</button>
+                
+                        <button type="button" onclick="location.href='https://youtube.com'">YouTube</button>
+                
+                        <button type="button" onclick="location.href='https://www.freecodecamp.org/learn/full-stack-developer/'">Free
+                            Code Camp</button>
+                
+                        <button type="button" onclick="location.href='https://www.chatgpt.com'">ChatGPT</button>
+                
+                        <button type="button" onclick="location.href='https://www.github.com'">GitHub</button>
 
-            </div>
-
-            <div id="websites">
-
-                <h1>Websites</h1>
-
-                <div class="website-buttons">
-                    <button type="button" onclick="location.href='https://instagram.com/direct'">Instagram</button>
-
-                    <button type="button" onclick="location.href='https://youtube.com'">YouTube</button>
-
-                    <button type="button" onclick="location.href='https://www.freecodecamp.org/learn/full-stack-developer/'">Free Code Camp</button>
-
-                    <button type="button" onclick="location.href='https://www.chatgpt.com'">ChatGPT</button>
-
-                    <button type="button" onclick="location.href='https://www.github.com'">GitHub</button>
-                </div>
-            </div>
-
-            <div id="apple-music">
-                <h1>Apple Music</h1>
-
-                <div id="am-playlists">
-                    <h2>Playlists</h2>
-
-                    <div class="am-playlists-buttons">
-                        <button type="button" onclick="location.href='https://music.apple.com/in/library/songs'">Songs</button>
-
-                        <button type="button" onclick="location.href='https://music.apple.com/in/home'">Home</button>
-
-                        <button type="button" onclick="location.href='https://music.apple.com/in/library/playlist/p.0YU06GzkYd'">Favourites</button>
-
-                        <button type="button" onclick="location.href='https://music.apple.com/in/library/playlist/p.3VKWgDdIbBYA2X3'">Bass</button>
-
-                        <button type="button" onclick="location.href='https://music.apple.com/in/library/playlist/p.YJXV7dvIegZLYqW'">Botanica</button>
-
-                        <button type="button" onclick="location.href='https://music.apple.com/in/library/playlist/p.MoGJ9GoCv05gEYD'">Porter Robinson</button>
-
-                        <button type="button" onclick="location.href='https://music.apple.com/in/album/nurture/1550626757'">Nurture</button>
+                        <button type="button" onclick="location.href='https://classroom.google.com/u/2/?pli=1'">Classroom</button>
                     </div>
                 </div>
-
-                <div id="am-search">
-                    <h2>Search</h2>
-
-                    <div class="search-forms">
-
-                        <form action="https://music.apple.com/in/search" method="get">
-                            <label for="search">Global Search: </label>
-                            <input type="text" id="search" name="term">
-                            <button type="submit">Global Search</button>
-                        </form>
-
-                        <!--<form action="https://music.apple.com/in/search" method="get">
-                                <label for="lib-search">Library Search: </label>
-                                <input type="text" id="lib-search" name="term">
-                                <input type="hidden" name="searchIn" value="library">
-                                <button type="submit">Library Search</button>
-                        </form>-->
-
+                
+                <div id="apple-music">
+                    <h1>Apple Music</h1>
+                
+                    <div id="am-playlists">
+                        <h2>Playlists</h2>
+                
+                        <div class="am-playlists-buttons">
+                            <button type="button" onclick="location.href='https://music.apple.com/in/library/songs'">Songs</button>
+                
+                            <button type="button" onclick="location.href='https://music.apple.com/in/home'">Home</button>
+                
+                            <button type="button"
+                                onclick="location.href='https://music.apple.com/in/library/playlist/p.0YU06GzkYd'">Favourites</button>
+                
+                            <button type="button"
+                                onclick="location.href='https://music.apple.com/in/library/playlist/p.3VKWgDdIbBYA2X3'">Bass</button>
+                
+                            <button type="button"
+                                onclick="location.href='https://music.apple.com/in/library/playlist/p.YJXV7dvIegZLYqW'">Botanica</button>
+                
+                            <button type="button"
+                                onclick="location.href='https://music.apple.com/in/library/playlist/p.MoGJ9GoCv05gEYD'">Porter
+                                Robinson</button>
+                
+                            <button type="button"
+                                onclick="location.href='https://music.apple.com/in/album/nurture/1550626757'">Nurture</button>
+                        </div>
+                    </div>
+                
+                    <div id="am-search">
+                        <h2>Search</h2>
+                
+                        <div class="search-forms">
+                
+                            <form action="https://music.apple.com/in/search" method="get">
+                                <label for="search">Global Search: </label>
+                                <div class="input-wrapper">
+                                    <input type="text" id="search" name="term">
+                                </div>
+                                <button type="submit">Global Search</button>
+                            </form>
+                
+                            <!--<form action="https://music.apple.com/in/search?term=" method="get">
+                                <label for="search">Global Search: </label>
+                                <div class="input-wrapper">
+                                    <input type="text" id="search" name="term">
+                                </div>
+                                <button type="submit">Global Search</button>
+                            </form>-->
+                        </div>
                     </div>
                 </div>
             </div>
