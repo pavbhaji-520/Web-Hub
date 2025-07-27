@@ -1,10 +1,7 @@
 body {
-    /*background-color: #ffb3c4;*/
     background-color: #faced7;
     color: #973449;
-    /*font-family: 'Times New Roman', Times, serif;*/
     font-family: 'Inter', sans-serif;
-
 }
 
 h1, h2 {
@@ -38,7 +35,7 @@ button, input {
     color: #973449;
     
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 2px 4px #fa5478a2;
 
     transition: all 0.25s ease;
@@ -50,7 +47,7 @@ button:hover, input:hover, button:focus, input:focus {
     
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 14px;
     box-shadow: 0 2px 8px #fa5478a2;
 
     margin-right: 7px;
@@ -142,7 +139,7 @@ input:active {
 
 .website-buttons {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     gap: 6px 12px;
     justify-content: center;
     align-items: center;
@@ -164,4 +161,43 @@ input:active {
 
 .am-playlists-buttons a {
     justify-self: center;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fe809c;
+  z-index: -1;
+  filter: blur(70px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+button:hover::after, button:focus::after {
+  opacity: 1;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fe809c;
+  z-index: -1;
+  filter: blur(70px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.input-wrapper:hover::after, .input-wrapper:focus::after {
+  opacity: 0.5;
 }
