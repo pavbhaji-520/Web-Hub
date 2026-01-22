@@ -1,6 +1,8 @@
 <pre>
 WARNING: DOES NOT WORK ON MOBILE DEVICES. DESKTOP/LAPTOPS ONLY!!!!!!!!!!!!!!!
-
+	
+Simple, pretty, animated.
+	
 • Install Instructions:
 	- Download the ZIP and extract it.
 	- Put the newly extracted folder wherever you want.
