@@ -1,6 +1,19 @@
+:root {
+    --text_color_all: #973449;
+    --background_color: #faced7;
+    
+    --buttons_inputs_background_color_unfocused: #ffe4e4;
+    --buttons_inputs_background_color_focused: #fddbdb;
+    
+    --shadow_color: #fa5478a2;
+    --shadow_color_on_click: #ff325ea2;
+    
+    --hover_glow_color: #fe809c;
+}
+
 body {
-    background-color: #faced7;
-    color: #973449;
+    background-color: var(--background_color);
+    color: var(--text_color_all);
     font-family: 'Inter', sans-serif;
 }
 
@@ -21,7 +34,6 @@ div {
 }
 
 button {
-    
     height: 30px;
     width: 200px;
 }
@@ -31,24 +43,24 @@ input {
 }
 
 button, input {
-    background-color: #ffe4e4;
-    color: #973449;
+    background-color: var(--buttons_inputs_background_color_unfocused);
+    color: var(--text_color_all);
     
     border: none;
     border-radius: 12px;
-    box-shadow: 0 2px 4px #fa5478a2;
+    box-shadow: 0 2px 4px var(--shadow_color);
 
     transition: all 0.25s ease;
 }
 
 button:hover, input:hover, button:focus, input:focus {
-    background-color: #fddbdb;
-    color: #973449;
+    background-color: var(--buttons_inputs_background_color_focused);
+    color: var(--text_color_all);
     
     outline: none;
     border: none;
     border-radius: 14px;
-    box-shadow: 0 2px 8px #fa5478a2;
+    box-shadow: 0 2px 8px var(--shadow_color);
 
     margin-right: 7px;
     transform: scale(1.07) translateY(-5px);
@@ -65,13 +77,13 @@ button:hover, button:focus {
 }
 
 #web-search button:hover, #web-search input:hover, #web-search button:focus, #web-search input:focus {
-    background-color: #fddbdb;
-    color: #973449;
+    background-color: var(--buttons_inputs_background_color_focused);
+    color: var(--text_color_all);
     
     outline: none;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 2px 8px #fa5478a2;
+    box-shadow: 0 2px 8px var(--shadow_color);
 
     margin-right: 7px;
     transform: scale(1.07) translateY(-2px);
@@ -83,13 +95,13 @@ button:hover, button:focus {
 }
 
 button:active {
-    background-color: #fddbdb;
-    color: #973449;
+    background-color: var(--buttons_inputs_background_color_focused);
+    color: var(--text_color_all);
     
     border: none;
     outline: none;
     border-radius: 10px;
-    box-shadow: 0 2px 10px #ff325ea2;
+    box-shadow: 0 2px 10px var(--shadow_color_on_click);
 
     transform: scale(1.07);
     margin-right: 10px;
@@ -98,13 +110,13 @@ button:active {
 }
 
 input:active {
-    background-color: #fddbdb;
-    color: #973449;
+    background-color: var(--buttons_inputs_background_color_focused);
+    color: var(--text_color_all);
     
     border: none;
     outline: none;
     border-radius: 10px;
-    box-shadow: 0 2px 10px #ff325ea2;
+    box-shadow: 0 2px 10px var(--shadow_color_on_click);
 
     transform: scale(1.07);
     margin-right: 10px;
@@ -169,7 +181,7 @@ button::after {
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: #fe809c;
+  background: var(--hover_glow_color);
   z-index: -1;
   filter: blur(70px);
   opacity: 0;
@@ -191,7 +203,7 @@ button:hover::after, button:focus::after {
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: #fe809c;
+  background: var(--hover_glow_color);
   z-index: -1;
   filter: blur(70px);
   opacity: 0;
