@@ -13,3 +13,6 @@ WARNING: DOES NOT WORK ON MOBILE DEVICES. DESKTOP/LAPTOPS ONLY!!!!!!!!!!!!!!!
 • To customise the links, you can do so with extremely basic html knowledge 
 	(or get it done by me FOR FREE by contacting me on Instagram @pavbhaji_520)
 </pre>
+
+
+<img width="1857" height="976" alt="image" src="https://github.com/user-attachments/assets/865f723d-2407-4269-915c-b1adc3bb6779" />
