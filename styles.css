@@ -11,6 +11,10 @@
     --hover_glow_color: #fe809c;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--background_color);
     color: var(--text_color_all);
@@ -213,3 +217,4 @@ button:hover::after, button:focus::after {
 .input-wrapper:hover::after, .input-wrapper:focus::after {
   opacity: 0.5;
 }
+
