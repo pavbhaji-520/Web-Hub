@@ -12,8 +12,7 @@ Simple, pretty, animated.
 	- Right click the .html > More Options > Create a Shortcut.
 	- Cut/Copy and Paste the shortcut on your desktop/wherever you want.
       
-• To customise the links, you can do so with extremely basic html knowledge 
-	(or get it done by me FOR FREE by contacting me on Instagram @pavbhaji_520)
+• To customise the links, you can do so with extremely basic html knowledge and literally no need for css knowledge as the colors are all variables at the top of the file, for which you can simply change the value easily 
 </pre>
 
 
